@@ -1,90 +1,82 @@
-# Nanonet - Sample Invoice Dataset
+# Nanonet - AI Powered Purchase Invoice Data Extraction
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+Nanonet is an AI-powered solution for extracting structured data from Purchase Invoice PDFs. It automatically identifies and extracts key invoice information such as supplier details, purchaser information, payment details, invoice metadata, and itemized line items.
 
-## Overview
-
-This repository contains a sample purchase invoice image that can be used for OCR (Optical Character Recognition), invoice data extraction, document analysis, and machine learning experiments.
-
-The project serves as a basic resource for developers, students, and researchers working on document processing and invoice automation solutions.
+The goal of this project is to simplify invoice processing, reduce manual data entry, and improve accuracy through intelligent document understanding.
 
 ---
 
-## Contents
+## 🚀 Features
+
+- 📄 Extract data directly from PDF purchase invoices
+- 🏢 Supplier information extraction
+- 👤 Purchaser information extraction
+- 💳 Payment details extraction
+- 📅 Invoice date and metadata extraction
+- 📦 Item-level details extraction
+- 🤖 AI-powered document understanding
+- ⚡ Fast and automated processing
+
+---
+
+## 📷 Sample Invoice
+
+![Purchase Invoice](https://raw.githubusercontent.com/taastha165-commits/Nanonet/main/Purchase-Invoice.png)
+
+---
+
+## 📊 Extracted Information
+
+The system extracts the following fields:
+
+### Supplier Details
+- Supplier Name
+- Supplier Address
+- Contact Information
+- Tax Identification Details
+
+### Purchaser Details
+- Purchaser Name
+- Billing Address
+- Contact Information
+
+### Invoice Information
+- Invoice Number
+- Invoice Date
+- Due Date
+- Purchase Order Reference
+
+### Payment Information
+- Payment Terms
+- Payment Method
+- Bank Details
+- Total Amount
+
+### Item Details
+- Item Description
+- Quantity
+- Unit Price
+- Tax Amount
+- Line Total
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- OCR & Document Processing
+- AI / Machine Learning
+- PDF Parsing
+- Data Extraction Pipelines
+
+---
+
+## 📂 Project Structure
 
 ```text
 Nanonet/
+│
 ├── Purchase-Invoice.png
 ├── README.md
-└── LICENSE
-```
-
-### Included File
-
-| File | Description |
-|------|-------------|
-| Purchase-Invoice.png | Sample purchase invoice document for testing OCR and data extraction workflows |
-
----
-
-## Use Cases
-
-- Invoice OCR testing
-- Document digitization
-- Data extraction experiments
-- Machine learning dataset preparation
-- Invoice processing automation
-- Computer vision projects
-
----
-
-## Example Workflow
-
-1. Load the invoice image.
-2. Apply an OCR engine such as Tesseract or Nanonets.
-3. Extract invoice text.
-4. Identify important fields:
-   - Vendor Name
-   - Invoice Number
-   - Date
-   - Line Items
-   - Total Amount
-5. Export the extracted information to JSON, CSV, or a database.
-
----
-
-## Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/taastha165-commits/Nanonet.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd Nanonet
-```
-
-Open the invoice image and use it with your preferred OCR or document-processing tool.
-
----
-
-## Applications
-
-- Financial document processing
-- Accounts payable automation
-- Invoice management systems
-- OCR model evaluation
-- AI-powered document understanding
-
----
-
-## Future Enhancements
-
-- Multiple invoice samples
-- OCR extraction scripts
-- Structured JSON annotations
-- Invoice field detection models
-- Automated data extraction pipelines
+├── LICENSE
+└── src/
