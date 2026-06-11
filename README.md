@@ -1,5 +1,7 @@
 Purchase Invoice Data Extraction Using Nanonets AI
 
+![Purchase Invoice](Purchase Invoice.png)
+
 🚀 Project Overview
 
 This project leverages Nanonets AI and Optical Character Recognition (OCR) to automate the extraction of critical information from purchase invoices. Instead of manually entering invoice details, the system intelligently identifies and structures data such as supplier information, purchaser details, invoice metadata, payment terms, and line-item records.
