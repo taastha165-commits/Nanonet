@@ -1,6 +1,5 @@
 Purchase Invoice Data Extraction Using Nanonets AI
 
-![Purchase Invoice](Purchase Invoice.png)
 
 🚀 Project Overview
 
