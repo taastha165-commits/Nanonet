@@ -1,57 +1,90 @@
-Purchase Invoice Data Extraction Using Nanonets AI
+# Nanonet - Sample Invoice Dataset
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-🚀 Project Overview
+## Overview
 
-This project leverages Nanonets AI and Optical Character Recognition (OCR) to automate the extraction of critical information from purchase invoices. Instead of manually entering invoice details, the system intelligently identifies and structures data such as supplier information, purchaser details, invoice metadata, payment terms, and line-item records.
-The solution helps organizations streamline invoice processing, reduce human errors, and improve operational efficiency through intelligent document automation.
+This repository contains a sample purchase invoice image that can be used for OCR (Optical Character Recognition), invoice data extraction, document analysis, and machine learning experiments.
 
-✨ Key Features
-Automated PDF invoice processing
-Supplier and purchaser information extraction
-Invoice number and invoice date recognition
-Payment terms identification
-Item-wise extraction of products and services
-Quantity, unit price, and total amount capture
-Subtotal, shipping, discount, and grand total extraction
-Structured output for business and accounting workflows
+The project serves as a basic resource for developers, students, and researchers working on document processing and invoice automation solutions.
 
-🛠️ Technologies Used
-Nanonets AI
-OCR (Optical Character Recognition)
-Intelligent Document Processing (IDP)
-PDF Data Extraction
-Data Structuring & Validation
+---
 
-📋 Workflow
-Upload a purchase invoice in PDF format.
-Nanonets processes the document using AI and OCR.
-Relevant invoice fields are detected and extracted.
-Data is organized into a structured format.
-The extracted information can be used for reporting, accounting, or ERP integration.
+## Contents
 
-📊 Extracted Data Fields
-Supplier Name, Address & Email
-Purchaser Name, Address & Email
-Invoice Number
-Purchase Order Number
-Invoice Date
-Payment Terms
-Item Description
-Quantity
-Unit Price
-Item Total
-Subtotal
-Shipping Charges
-Discount
-Grand Total
+```text
+Nanonet/
+├── Purchase-Invoice.png
+├── README.md
+└── LICENSE
+```
 
-🎯 Business Benefits
-Reduces manual data entry effort
-Improves data accuracy and consistency
-Accelerates invoice processing time
-Enhances financial record management
-Supports digital transformation and workflow automation
+### Included File
 
-📌 Conclusion
-This project demonstrates how AI-powered invoice extraction can transform traditional document processing into an efficient, accurate, and scalable workflow. By automating invoice data capture, businesses can save time, reduce operational costs, and focus on higher-value tasks.
+| File | Description |
+|------|-------------|
+| Purchase-Invoice.png | Sample purchase invoice document for testing OCR and data extraction workflows |
+
+---
+
+## Use Cases
+
+- Invoice OCR testing
+- Document digitization
+- Data extraction experiments
+- Machine learning dataset preparation
+- Invoice processing automation
+- Computer vision projects
+
+---
+
+## Example Workflow
+
+1. Load the invoice image.
+2. Apply an OCR engine such as Tesseract or Nanonets.
+3. Extract invoice text.
+4. Identify important fields:
+   - Vendor Name
+   - Invoice Number
+   - Date
+   - Line Items
+   - Total Amount
+5. Export the extracted information to JSON, CSV, or a database.
+
+---
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/taastha165-commits/Nanonet.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Nanonet
+```
+
+Open the invoice image and use it with your preferred OCR or document-processing tool.
+
+---
+
+## Applications
+
+- Financial document processing
+- Accounts payable automation
+- Invoice management systems
+- OCR model evaluation
+- AI-powered document understanding
+
+---
+
+## Future Enhancements
+
+- Multiple invoice samples
+- OCR extraction scripts
+- Structured JSON annotations
+- Invoice field detection models
+- Automated data extraction pipelines
